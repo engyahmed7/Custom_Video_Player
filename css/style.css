@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 11px;
+  }
+  video {
+    width: 500px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+  }
+  .progress-container {
+    width: 500px;
+    margin-bottom: 8px;
+  }
+  .progress {
+    width: 100%;
+  }
+  .fullscreen {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
